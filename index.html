@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Primeira Página Web</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f4f7f6;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        header {
+            background-color: #2c3e50;
+            color: #ffffff;
+            padding: 2rem 1rem;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        header h1 {
+            font-size: 2.2rem;
+            margin-bottom: 0.5rem;
+        }
+
+        header p {
+            color: #bdc3c7;
+            font-size: 1.1rem;
+        }
+
+        nav {
+            background-color: #34495e;
+            text-align: center;
+            padding: 0.8rem 0;
+        }
+
+        nav a {
+            color: #ecf0f1;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: 500;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #1abc9c;
+        }
+
+        main {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+            flex: 1;
+        }
+
+        .card {
+            background-color: #ffffff;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            margin-bottom: 1.5rem;
+        }
+
+        .card h2 {
+            color: #2c3e50;
+            margin-bottom: 1rem;
+            border-bottom: 2px solid #1abc9c;
+            padding-bottom: 0.5rem;
+        }
+
+        .card p {
+            margin-bottom: 1rem;
+        }
+
+        ul {
+            margin-left: 1.5rem;
+            margin-bottom: 1rem;
+        }
+
+        li {
+            margin-bottom: 0.5rem;
+        }
+
+        button {
+            background-color: #1abc9c;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 1rem;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #16a085;
+        }
+
+        footer {
+            background-color: #2c3e50;
+            color: #bdc3c7;
+            text-align: center;
+            padding: 1rem 0;
+            font-size: 0.9rem;
+            margin-top: auto;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Bem-vindo à Minha Página Web</h1>
+        <p>Uma estrutura simples, moderna e responsiva em HTML e CSS.</p>
+    </header>
+
+    <nav>
+        <a href="#inicio">Início</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#recursos">Recursos</a>
+        <a href="#contato">Contato</a>
+    </nav>
+
+    <main>
+        <section id="inicio" class="card">
+            <h2>Sobre esta Página</h2>
+            <p>Esta é uma página web simples criada com HTML5 e estilizada com CSS3. Ela possui um layout limpo e responsivo que se adapta bem a diferentes tamanhos de tela.</p>
+            <p>Você pode usar este arquivo como ponto de partida para criar sites mais complexos ou protótipos rápidos.</p>
+        </section>
+
+        <section id="recursos" class="card">
+            <h2>Recursos Incluídos</h2>
+            <ul>
+                <li>Estrutura semântica (header, nav, main, section, footer)</li>
+                <li>Design limpo e tipografia moderna</li>
+                <li>CSS embutido e de fácil modificação</li>
+                <li>Layout totalmente responsivo</li>
+            </ul>
+            <button onclick="alert('Obrigado por clicar!')">Clique Aqui</button>
+        </section>
+
+
+        <section id="recursos" class="card">
+            <h2>Recursos Incluídos</h2>
+            <ul>
+                <li>Estrutura semântica (header, nav, main, section, footer)</li>
+                <li>Design limpo e tipografia moderna</li>
+                <li>CSS embutido e de fácil modificação</li>
+                <li>Layout totalmente responsivo</li>
+            </ul>
+            <button onclick="alert('Obrigado por clicar!')">Clique Aqui</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 - Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
